@@ -16,13 +16,14 @@ include_once DATAPATH.'meta_tags.php';
 <?php // leave in during development and remove once live ?>
 <meta name="robots" content="noindex, nofollow">
 
-
 <title><?php echo ${$filename}['title']; ?></title>
 <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
+// Google web fonts Lato, Lobster and Oswald regular
 // Fontawesome and Bootstrap via bootstrapcdn which should leverage browser caching
 ?>
+<link href='http://fonts.googleapis.com/css?family=Lato|Lobster|Oswald' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="<?php echo CSSPATH.'style.css'; ?>" type="text/css" media="screen" />
@@ -34,4 +35,5 @@ include_once DATAPATH.'meta_tags.php';
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <div id="wrap">
-<h1>--Main Heading--</h1>
+<h1>artisan cycles</h1>
+<h2>hand crafted /// made to measure /// custom built</h2>
