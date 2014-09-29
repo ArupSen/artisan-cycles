@@ -36,54 +36,136 @@ ol, ul {list-style: none;}
 q:before, q:after,
 blockquote:before, blockquote:after {
 content: "";}
-
-/* COLOUR PALETTE */
+// colour assignments
 $heading_color: #999999;
-/*
-#B0B0B0 - medium grey
-#666666 - darker grey
-#B31E00 - red
-#006276 - blue
+$nav_bg: $heading_color;
+$hover_color: #333333;
+$ft_bg_color: #5B7E96;
+$sm_header_color: $ft_bg_color;
+$nav_color: #FFFFFF;
+$ft_color: $nav_color;
+$orange: #D65f00;
+$enquire_bg: #f9babf;
+$body_color: #404040;
 
-*/
+// google font assignments
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$lobster: 'Lobster', cursive;
 
 /* BG IMAGE PATH url('../images/my_image.gif') */
 /*the main global rules*/
-body{font-family:Arial, sans-serif;font-size:100.01%;position:relative;margin:0 auto;background-color:#FFFFFF;}
-div#wrap{}
-
-
-/*grouped selectors - good for position:absolute and relative*/
-
-
-/*main heading and sub heading*/
-
-h1{
-  color: $heading_color;
+body{
+font-family:$lato;
+font-size:100.01%;
+position:relative;
+margin:0 auto;
+background-color:#FFFFFF;
+color: $body_color;
+}
+div#wrap{
+  max-width:900px;
+  padding-top:40px;
+  font-size: 11px;
 }
 
+//main heading and sub heading
+
+h1,h2,h3{
+  font-family: $oswald;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 24px;
+  color: $heading_color;
+}
+h2 {
+  font-size: 14px;
+  text-align: right;
+  position: relative;
+  bottom: 16px;
+  color: $heading_color;
+}
+h3 {
+  color: $sm_header_color;
+  font-weight: bold;
+  font-size: 11px;
+}
 /*content area*/
-div#contents{}
-#contents p{}
-
-#contents ul, #contents h2{}
-
-#contents h2{}
-#contents li{}
-#contents a{}
-#contents a:hover{}
-
+div#contents{
+  position: relative;
+}
 
 /*main navbar*/
-ul#navbar{}
-ul#navbar li{}
-
+ul#navbar{
+  background-color: $nav_bg;
+  padding: 4px 0px;
+  min-height: 30px;
+  li{
+    float:left;
+    a{
+      font-family: $oswald;
+      font-size: 14px;
+      color: $nav_color;
+      text-transform: uppercase;
+      padding: 2px 20px;
+    }
+    a:hover {
+      color: $hover_color;
+      text-decoration: none;
+    }
+  }
+}
+#index #nav-home a, #about #nav-about a, #bikes #nav-bikes a, #frames #nav-frames a, #fitting #nav-fitting a, #wheels #nav-wheels a, #clothing #nav-clothing a, #visits #nav-visits a {
+  color: $hover_color;
+}
 div#clear {clear:left;}
-ul#navbar li a{text-decoration:none;}
 
 
-/*footer image link - arup designs*/
-#footer{}
+.enquire {
+  background-color: $enquire_bg;
+  width: 100px;
+  box-shadow: 2px 2px 4px;
+  border-radius: 3px;
+  padding: 0px 12px;
+  a {
+    color: $body_color;
+    font-family: $lobster;
+    font-size: 16px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+/*footer*/
+#footer{
+  color: $ft_color;
+  background-color: $ft_bg_color;
+  font-size: 10px;
+  text-transform: uppercase;
+  min-height: 44px;
+  p {
+    padding-top: 7px;
+    text-align: center;
+  }
+  a {
+    text-decoration: none;
+    color: $nav_color;
+  }
+  a:hover {
+    color: $hover_color;
+  }
+}
+// page specific rules
+/* home page */
+#index #contents p {
+  font-family: $lobster;
+  color: $orange;
+  font-size: 24px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
 
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
