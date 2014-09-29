@@ -3,8 +3,8 @@
 ?>
 
 </div><!-- end of contents -->
-<div id="footer">
-© 2014 ARTISAN CYCLES LTD: THE OLD GRAIN STORE, BROMLEY LANE, MUCH HADHAM, HERTFORDSHIRE SG10 6HU - COMPANY REG. NO. 8879217<br />TEL. +44(0) 14389 40600 - MOB. +44(0) 77729 31543 - INFO@ARTISANCYCLES.CO.UK
+<div id="footer" class="clearfix col-md-12">
+<p>© 2014 ARTISAN CYCLES LTD: THE OLD GRAIN STORE, BROMLEY LANE, MUCH HADHAM, HERTFORDSHIRE SG10 6HU - COMPANY REG. NO. 8879217<br />TEL. +44(0) 14389 40600 - MOB. +44(0) 77729 31543 - <a href="mailto:info@artisancycles.co.uk">INFO@ARTISANCYCLES.CO.UK</a></p>
 </div>
 </div> <!-- end of wrap -->
 <?php
