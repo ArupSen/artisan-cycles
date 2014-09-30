@@ -76,6 +76,12 @@ h3 {
   font-weight: bold;
   font-size: 11px; }
 
+#wheels h3 {
+  color: #006e6e; }
+
+#fitting h3 {
+  color: #184a98; }
+
 /*content area*/
 div#contents {
   position: relative; }

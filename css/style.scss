@@ -47,6 +47,8 @@ $ft_color: $nav_color;
 $orange: #D65f00;
 $enquire_bg: #f9babf;
 $body_color: #404040;
+$wheels_sub_head: #006E6E;
+$fitting_sub_head: #184a98;
 
 // google font assignments
 $lato: 'Lato', sans-serif;
@@ -90,6 +92,12 @@ h3 {
   color: $sm_header_color;
   font-weight: bold;
   font-size: 11px;
+}
+#wheels h3 {
+  color: $wheels_sub_head;
+}
+#fitting h3 {
+  color: $fitting_sub_head;
 }
 /*content area*/
 div#contents{
