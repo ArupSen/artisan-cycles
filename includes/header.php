@@ -36,6 +36,6 @@ include_once DATAPATH.'meta_tags.php';
         <![endif]-->
 <div id="wrap" class="container">
 <header>
-  <h1>artisan cycles</h1>
+  <h1>artisan cycles<?php img_tag('artisan-logo.jpg'); ?></h1>
   <h2>hand crafted /// made to measure /// custom built</h2>
 </header>
