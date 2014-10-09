@@ -173,6 +173,11 @@ div#clear {
   bottom: 10px;
   left: 10px; }
 
+/* visits page */
+.social-icons img {
+  display: inline;
+  padding: 5px; }
+
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /*global rules*/
