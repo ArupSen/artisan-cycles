@@ -11,7 +11,7 @@ navbar();
   img_tag('wheels-main.jpg', 'Hand built wheels at Artisan Cycles Ltd');
 ?>
 </div>
-<div class="col-md-6">
+<div class="col-md-6 text">
   <h3>hand built wheels</h3>
 <p>After a well built frame, the next most important component of a good bicycle is most certainly the wheelset. We offer the option to have hand-built wheelsets on all our projects - but we also sell just the wheels, customised on demand; prices start at £200 for a set.</p>
 <p>A hand made wheelset not only allows choice of preferred components, but it also offers the best possible handling and durability, as it's designed according to client's weight, riding style and requirements. We build all sorts of custom wheels, for any purpose, with any lacing pattern, using only top quality components, like Sapim spokes (made in Belgium), Mavic rims (made in France), Campagnolo, Miche and Royce hubs (made in Italy and England). Below are just three examples of our most popular wheelsets, but combinations are endless, so please feel free to enquire about any build:</p>
