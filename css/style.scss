@@ -74,7 +74,7 @@ background-color:#FFFFFF;
 color: $body_color;
 }
 div#wrap{
-  max-width:900px;
+  max-width:930px;
   padding-top:40px;
   font-size: 11px;
 }
@@ -114,7 +114,11 @@ h3 {
 div#contents{
   position: relative;
 }
-
+/*bootstrap overrides*/
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 /*main navbar*/
 ul#navbar{
   background-color: $nav_bg;
@@ -140,13 +144,23 @@ ul#navbar{
 }
 div#clear {clear:left;}
 
-
+.picture {
+  padding: 0;
+  p {
+    font-family: $oswald;
+    font-size: 12px;
+  }
+}
+.text p {
+  margin: 1em;
+}
 .enquire {
   background-color: $enquire_bg;
   width: 100px;
   box-shadow: 2px 2px 4px;
-  border-radius: 3px;
+  border-radius: 1px;
   padding: 0px 12px;
+  line-height: 1.9em;
   a {
     color: $body_color;
     font-family: $lobster;
