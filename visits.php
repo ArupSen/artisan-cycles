@@ -18,6 +18,11 @@ navbar();
 Much Hadham Hertfordshire SG10 6HU Tel 01438 940600
 Mob 07772 931543 info@artisancycles.co.uk</address>
 <div class="social-icons">
+<?php
+img_tag('fb_icon.png', 'Follow us on Facebook');
+img_tag('twitter_icon.png', "Follow us on Twitter");
+img_tag('skype_icon.png','Call us on Skype');
+?>
 </div>
 <?php
 img_tag('visits-map.jpg','Local area map of Artisan Cycles');
