@@ -6,7 +6,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<div class="col-md-2 picture-left">
+<div class="col-md-2 picture">
   <?php
   img_tag('visits-local.jpg','places to visit in Much Hadham');
   ?>
@@ -24,7 +24,7 @@ img_tag('visits-map.jpg','Local area map of Artisan Cycles');
 ?>
 </div>
 
-<div class="col-md-5 picture-right">
+<div class="col-md-5 picture">
   <?php
   img_tag('visits-main.jpg','Visit Artisan Cycles by appointment');
   ?>

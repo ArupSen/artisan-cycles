@@ -6,7 +6,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<div class="col-md-6">
+<div class="col-md-6 picture">
 <?php
   img_tag('wheels-main.jpg', 'Hand built wheels at Artisan Cycles Ltd');
 ?>

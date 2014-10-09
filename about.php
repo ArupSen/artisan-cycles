@@ -6,7 +6,7 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
-<div class="col-md-5">
+<div class="col-md-5 picture">
   <?php
   img_tag('about-main.jpg', 'Artisan Cycles, Much Hadham, Hertfordshire');
   ?>
