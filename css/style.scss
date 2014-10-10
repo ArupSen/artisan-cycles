@@ -57,6 +57,7 @@ $enquire_bg: #f9babf;
 $body_color: #404040;
 $wheels_sub_head: #006E6E;
 $fitting_sub_head: #184a98;
+$page_bg_color: #E6E6E6;
 
 // google font assignments
 $lato: 'Lato', sans-serif;
@@ -109,6 +110,7 @@ h3 {
 }
 #fitting h3 {
   color: $fitting_sub_head;
+  margin-bottom: 1em;
 }
 /*content area*/
 div#contents{
@@ -208,6 +210,44 @@ div#clear {clear:left;}
 }
 #about .text p.enquire {
   margin-top: 2.5em;
+}
+/* frames page */
+#frames #contents {
+  background: $page_bg_color;
+}
+#frames .text {
+  padding-top:25px;
+  padding-left: 0;
+  margin-left: -16px;
+}
+img[alt="frame dropouts"] {
+  margin-top: -19px;
+}
+img[alt="frame on bench"] {
+  padding: 30px 0;
+}
+#frames aside p {
+  font-family: $lobster;
+  color: $ft_bg_color;
+  font-size: 32px;
+  width: 280px;
+  position: absolute;
+  left: 75px;
+  top: 550px;
+}
+/* fittings page */
+#fitting #contents {
+  background: $page_bg_color;
+}
+#fitting .picture p {
+  position: absolute;
+  top: 355px;
+  color: #c2c2c2;
+  width: 100px;
+  left: 10px;
+}
+#fitting p.enquire {
+  margin-top: 58px;
 }
 /* visits page */
 .social-icons img {

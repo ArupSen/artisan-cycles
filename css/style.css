@@ -91,7 +91,8 @@ h3 {
   color: #006e6e; }
 
 #fitting h3 {
-  color: #184a98; }
+  color: #184a98;
+  margin-bottom: 1em; }
 
 /*content area*/
 div#contents {
@@ -182,6 +183,44 @@ div#clear {
 
 #about .text p.enquire {
   margin-top: 2.5em; }
+
+/* frames page */
+#frames #contents {
+  background: #e6e6e6; }
+
+#frames .text {
+  padding-top: 25px;
+  padding-left: 0;
+  margin-left: -16px; }
+
+img[alt="frame dropouts"] {
+  margin-top: -19px; }
+
+img[alt="frame on bench"] {
+  padding: 30px 0; }
+
+#frames aside p {
+  font-family: "Lobster", cursive;
+  color: #5b7e96;
+  font-size: 32px;
+  width: 280px;
+  position: absolute;
+  left: 75px;
+  top: 550px; }
+
+/* fittings page */
+#fitting #contents {
+  background: #e6e6e6; }
+
+#fitting .picture p {
+  position: absolute;
+  top: 355px;
+  color: #c2c2c2;
+  width: 100px;
+  left: 10px; }
+
+#fitting p.enquire {
+  margin-top: 58px; }
 
 /* visits page */
 .social-icons img {
