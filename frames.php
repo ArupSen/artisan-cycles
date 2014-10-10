@@ -40,7 +40,7 @@ navbar();
     img_tag('frames-bench.jpg', 'frame on bench');
     ?>
   </div>
-  <p>master frame builders of competition frames since the 1940's</p>
+  <aside><p>master frame builders of competition frames since the 1940's</p></aside>
 </div>
 
 <div class="row">
