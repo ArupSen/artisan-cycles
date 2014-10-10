@@ -132,7 +132,10 @@ div#clear {
     font-size: 12px; }
 
 .text p {
-  margin: 1em; }
+  margin: 0 0 1em 15px; }
+
+.text h3 {
+  margin: 30px 0 0 15px; }
 
 .enquire {
   background-color: #f9babf;
@@ -172,6 +175,13 @@ div#clear {
   position: absolute;
   bottom: 10px;
   left: 10px; }
+
+/* about page */
+#about .text p {
+  margin-bottom: -1.6em; }
+
+#about .text p.enquire {
+  margin-top: 2.5em; }
 
 /* visits page */
 .social-icons img {
