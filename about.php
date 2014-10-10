@@ -11,7 +11,7 @@ navbar();
   img_tag('about-main.jpg', 'Artisan Cycles, Much Hadham, Hertfordshire');
   ?>
 </div>
-<div class="col-md-7">
+<div class="col-md-7 text">
     <h3>BIKES BUILT FOR PERFORMANCE AND DURABILITY</h3>
   <p>Our range includes performance level carbon fibre and titanium, classic and modern steel bicycles and aluminium entry racers. Our frames are made to measure, in Italy. They are individually handcrafted by master frame builders who have specialized in high-end competition frames since the 1940's.</p>
   <h3>BIKE FITTING THE WAY IT SHOULD BE</h3>

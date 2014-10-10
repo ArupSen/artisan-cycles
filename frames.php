@@ -18,7 +18,7 @@ navbar();
     ?>
   </div>
   <div class="col-md-1"></div>
-  <div class="col-md-6">
+  <div class="col-md-6 text">
     <p>Our frames are hand-crafted, specifically designed and built one by one for each individual rider's body dimensions and weight, riding style, preferred geometry and specifications.</p>
     <p>Experience is a key factor in frame building. We select the best Italian artisans with several generations' experience of building frames at competitive level - and these are family businesses who have always kept their productions 100% made in Italy. From Antonio and Ferruccio Taverna, to Valentino Stocchero, Renzo Formigli and Irio Tommasini, our frame builders have hand-crafted frames, as outside contractors, for the major Italian bicycle brands. In many occasions, they have built - and still do - professional competition frames that raced major world competitions.</p>
     <p>We are proud to bring these frames to the UK, they represent the absolute best you can find in the world for heritage, experience and innovation. From the classic modernity of Steel and Stainless Steel, to the versatility of Aluminium and the inno- vation of modern materials, such as Carbon Fibre and Titanium.</p>
