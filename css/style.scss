@@ -105,13 +105,6 @@ h3 {
   font-weight: bold;
   font-size: 11px;
 }
-#wheels h3 {
-  color: $wheels_sub_head;
-}
-#fitting h3 {
-  color: $fitting_sub_head;
-  margin-bottom: 1em;
-}
 /*content area*/
 div#contents{
   position: relative;
@@ -211,6 +204,10 @@ div#clear {clear:left;}
 #about .text p.enquire {
   margin-top: 2.5em;
 }
+#about #contents {
+  background: $page_bg_color;
+}
+
 /* frames page */
 #frames #contents {
   background: $page_bg_color;
@@ -235,7 +232,14 @@ img[alt="frame on bench"] {
   left: 75px;
   top: 550px;
 }
-/* fittings page */
+/* fitting page */
+#fitting h3 {
+  color: $fitting_sub_head;
+  margin-bottom: 1em;
+    }
+#fitting #contents {
+  background: $page_bg_color;
+}
 #fitting #contents {
   background: $page_bg_color;
 }
@@ -249,10 +253,78 @@ img[alt="frame on bench"] {
 #fitting p.enquire {
   margin-top: 58px;
 }
+/* wheels page */
+#wheels #contents {
+  background: $page_bg_color;
+}
+#wheels .text p {
+max-width: 300px;
+}
+#wheels h3 {
+  color: $wheels_sub_head;
+  margin-bottom: 1em;
+  }
+#wheels p.enquire {
+  margin-top: 75px;
+}
+/* clothing page */
+#clothing aside {
+  font-family: $oswald;
+  font-size: 12px;
+  text-transform: uppercase;
+}
 /* visits page */
+.social-icons {
+  position: absolute;
+  left: 208px;
+  top: 96px;
+}
 .social-icons img {
   display: inline;
   padding: 5px;
+  width: 40px;
+}
+#visits .picture p {
+  position: absolute;
+}
+p.appointment {
+font-family: $lobster;
+color: #ffffff;
+bottom: 15px;
+font-size: 14px;
+right: 30px;
+}
+p.henry-moore, p.cafe {
+  font-size: 12px;
+  left: 5px;
+}
+p.henry-moore {
+  top: 290px;
+}
+p.henry-moore a:hover, p.cafe a:hover {
+  text-decoration: none;
+}
+p.henry-moore a {
+  color: #FFFFFF;
+}
+p.cafe {
+  top: 425px;
+}
+p.cafe a {
+  color: #000000;
+}
+address {
+  margin: 26px 0 -18px 45px;
+  color: #595959;
+}
+img[src='./images/visits-map.jpg'] {
+  margin-left: 45px;
+  margin-top: 20px;
+}
+div#SkypeButton_Call_artisancycles_1 img {
+  position: absolute;
+  top: -75px;
+  left: 51px;
 }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio:0){
