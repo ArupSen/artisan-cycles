@@ -273,6 +273,67 @@ max-width: 300px;
   font-size: 12px;
   text-transform: uppercase;
 }
+#clothing .top-row aside {
+position: absolute;
+bottom: -50px;
+left: 30px;
+z-index: 1;
+}
+#clothing .col-md-7 h3 {
+  position: relative;
+  top: 30px;
+  left: 15px;
+}
+#clothing .clo-md-7 p {
+  position: relative;
+  top: 40px;
+  left: 15px;
+  width: 440px;
+}
+#clothing .col-md-7 img {
+top: 60px;
+position: relative;
+}
+.bottom-row div:nth-of-type(2) img {
+  margin-top: 118px;
+}
+#clothing .bottom-row aside {
+  position: absolute;
+}
+#clothing .bottom-row div.picture:nth-of-type(1) aside {
+  top: 420px;
+  left: 30px;
+}
+#clothing .bottom-row div.picture:nth-of-type(2) aside {
+  top: 420px;
+  color: #ffffff;
+  left: 15px;
+}
+#clothing aside ul li {
+  list-style-type: disc;
+  text-indent: -7px;
+  margin-left: 20px;
+}
+#clothing h3 {
+  color: #d75f00;
+  font-size: 12px;
+}
+.left-stripe, .right-stripe {
+  width: 16px;
+  background: #95A9b9;
+  min-height: 400px;
+  position: absolute;
+  z-index: 1;
+}
+.left-stripe {
+  bottom: 0px;
+  height: 544px;
+}
+.right-stripe {
+  top: 0;
+  right: 0;
+  height: 611px;
+}
 /* visits page */
 .social-icons {
   position: absolute;
