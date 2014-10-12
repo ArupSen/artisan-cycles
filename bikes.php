@@ -30,7 +30,8 @@ navbar();
   <div class="col-md-1 picture"></div>
   <div class="col-md-4 picture">
     <?php
-    img_tag('bikes-lombardi-headtube.jpg','Lombardi Carbon Head Tube');
+    img_tag('bikes-lombardi-gara1.jpg','Lombardi Gara 02');
+    img_tag('bikes-lombardi-gara2.jpg','Lombardi Gara 02');
     ?>
   </div>
 </div>
@@ -38,17 +39,17 @@ navbar();
   <div class="col-md-2 picture">
   <p>racer rosa<br />pista 01<br />columbus<br />steel</p>
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-seatstays.jpg','Lombardi Carbon Head Tube');
     ?>
   </div>
   <div class="col-md-2 picture">
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-detail.jpg','Lombardi Carbon Head Tube');
     ?>
   </div>
   <div class="col-md-3 picture">
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-pista.jpg','Lombardi Carbon Head Tube');
     ?>
   </div>
   <div class="col-md-1 picture">
@@ -56,7 +57,7 @@ navbar();
   </div>
   <div class="col-md-4 picture">
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-gara3.jpg','Lombardi Gara 02');
     ?>
   </div>
 </div>
