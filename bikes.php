@@ -8,39 +8,35 @@ navbar();
 ?>
 <div class="row lombardi-top">
     <div class="col-md-3 picture">
-<h3>all of our projects are</h3>
+    <h3>all of our projects are</h3>
     <?php
     img_tag('bikes-lombardi-sport.jpg','Lombardi Sport 01');
     ?>
-<p>racer rosa<br />sport 01<br />columbus steel</p>
+    <p>racer rosa<br />sport 01<br />columbus steel</p>
   </div>
   <div class="col-md-2 picture">
-<aside>made to measure and custom built</aside>
+    <aside>made to measure and custom built</aside>
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-seattube.jpg','Lombardi steel seat tube');
     ?>
   </div>
   <div class="col-md-2 picture">
-<p>but here you can view<br />some of our most popular<br />models as an indication</p>
+    <p>but here you can view<br />some of our most popular<br />models as an indication</p>
     <?php
     include(INCPATH.'enquire.php');
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-forks.jpg','Lombardi steel forks');
     ?>
   </div>
-  <div class="col-md-1 picture">
-    <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
-    ?>
-  </div>
+  <div class="col-md-1 picture"></div>
   <div class="col-md-4 picture">
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-lombardi-headtube.jpg','Lombardi Carbon Head Tube');
     ?>
   </div>
 </div>
 <div class="row lombardi-bottom">
   <div class="col-md-2 picture">
-<p>racer rosa<br />pista 01<br />columbus<br />steel</p>
+  <p>racer rosa<br />pista 01<br />columbus<br />steel</p>
     <?php
     img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
     ?>
@@ -105,7 +101,7 @@ navbar();
 <div class="row tommasini-top">
   <div class="col-md-2 picture">
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-tommasini-headtube-carbon.jpg','Tommasini Carbon Head Tube');
     ?>
   </div>
   <div class="col-md-3 picture">
@@ -145,13 +141,13 @@ navbar();
   <div class="col-md-2 picture">
     <p>TOMMASINI<br /> MACH<br /> TITANIUM</p>
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-tommasini-headtube.jpg','Tommasini Titanium Head Tube');
     ?>
   </div>
   <div class="col-md-2 picture">
     <p>TOMMASINI<br /> X-FIRE<br /> STAINLESS STEEL<br /> COLUMBUS XCR</p>
     <?php
-    img_tag('bikes-tommasini-headtube.jpg','Tommasini Carbon Head Tube');
+    img_tag('bikes-tommasini-headtube-steel.jpg','Tommasini Steel Head Tube');
     ?>
   </div>
 </div>
