@@ -16,7 +16,7 @@ include_once DATAPATH.'meta_tags.php';
 <?php // leave in during development and remove once live ?>
 <meta name="robots" content="noindex, nofollow">
 
-<title><?php echo ${$filename}['title']; ?></title>
+<title><?php echo ${$filename}['title']; ?>Artisan Cycles Ltd</title>
 <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
