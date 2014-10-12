@@ -6,12 +6,14 @@ navbar();
 
 // the unique contents will go here up to the footer
 ?>
+<div class="left-stripe"></div>
+<div class="right-stripe"></div>
 <div class="row top-row">
   <div class="col-md-5 picture">
     <?php
     img_tag('clothing-parentini-top.jpg', 'Parentini');
     ?>
-<aside>WORLD CHAMPIONSHIPS 2014, PONFERRADA, SPAIN THE DANISH NATIONAL TEAM WINS ON PARENTINI</aside>
+<aside>WORLD CHAMPIONSHIPS 2014, PONFERRADA, SPAIN<br /> THE DANISH NATIONAL TEAM WINS ON PARENTINI</aside>
   </div>
   <div class="col-md-7">
     <h3>PREMIUM QUALITY BRANDS, 100% MANUFACTURED IN ITALY</h3>
