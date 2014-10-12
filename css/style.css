@@ -180,6 +180,41 @@ div#clear {
 #about #contents {
   background: #e6e6e6; }
 
+/* bikes page */
+#bikes #contents {
+  background: #e6e6e6; }
+
+.row.rides {
+  margin-bottom: 70px; }
+
+.row.rides p, .row.epoca p {
+  position: absolute; }
+
+.row.rides div:first-of-type p {
+  top: 5px;
+  left: 5px; }
+
+.row.rides div:nth-of-type(2) p {
+  left: 5px;
+  bottom: 5px; }
+
+.row.rides div:nth-of-type(3) p {
+  top: 5px;
+  right: 5px;
+  text-align: right;
+  color: #ffffff; }
+
+.row.epoca {
+  margin-bottom: 30px; }
+  .row.epoca p {
+    top: -60px; }
+
+.row.racer-rosa-bottom {
+  padding-bottom: 65px; }
+  .row.racer-rosa-bottom p {
+    text-align: right;
+    padding: 5px 5px 0 0; }
+
 /* frames page */
 #frames #contents {
   background: #e6e6e6; }
@@ -230,7 +265,7 @@ img[alt="frame on bench"] {
   background: #e6e6e6; }
 
 #wheels .text p {
-  max-width: 300px; }
+  max-width: 390px; }
 
 #wheels h3 {
   color: #006e6e;
@@ -256,11 +291,12 @@ img[alt="frame on bench"] {
   top: 30px;
   left: 15px; }
 
-#clothing .clo-md-7 p {
+#clothing .col-md-7 p {
   position: relative;
   top: 40px;
   left: 15px;
-  width: 440px; }
+  width: 440px;
+  margin-bottom: -15px; }
 
 #clothing .col-md-7 img {
   top: 60px;
