@@ -8,15 +8,35 @@
 // keywords - no longer used by google search
 
 $index = array(
-	'title' => '',
-	'description' => '');
-	
+  'title' => '',
+  'description' => '');
+
 $about = array(
-	'title' => '',
-	'description' => '');
-	
-$contact = array(
-	'title' => '',
-	'description' => '');
+  'title' => '',
+  'description' => '');
+
+$bikes = array(
+  'title' => '',
+  'description' => '');
+
+$frames = array(
+  'title' => '',
+  'description' => '');
+
+$fitting = array(
+  'title' => '',
+  'description' => '');
+
+$wheels = array(
+  'title' => '',
+  'description' => '');
+
+$clothing = array(
+  'title' => '',
+  'description' => '');
+
+$visits = array(
+  'title' => '',
+  'description' => '');
 
 ?>
