@@ -11,12 +11,12 @@ navbar();
   img_tag('visits-local.jpg','places to visit in Much Hadham');
   ?>
 <p class="henry-moore"><a href="http://twitter.com/henrymoorefdn" target="_blank">@henrymoorefdn</a></p>
-<p class="cafe"><a href="http://twitter.com/hoepley_cafe" target="_blank">@Hoepley_Cafe</a></p>
+<p class="cafe"><a href="http://twitter.com/Hopleys_Cafe" target="_blank">@Hopleys_Cafe</a></p>
 </div>
 <div class="col-md-5 picture">
   <address>The Old Grain Store<br /> Bromley Lane<br />
 Much Hadham<br /> Hertfordshire SG10 6HU<br /> Tel 01438 940600<br />
-Mob 07772 931543<br /> info@artisancycles.co.uk</address>
+Mob 07772 931543<br /> <a href="mailto:info@artisancycles.co.uk?subject=Enquiry from the website">info@artisancycles.co.uk</a></address>
 <div class="social-icons">
 <a href="https://www.facebook.com/pages/Artisan-Cycles/280582228781100" title="follow us on facebook" target="_blank"><?php img_tag('fb_icon.png', 'Follow us on Facebook'); ?></a>
 <a href="https://twitter.com/ArtisanCyclesUK" title="follow us on twitter" target="_blank"><?php img_tag('twitter_icon.png', "Follow us on Twitter"); ?></a>
