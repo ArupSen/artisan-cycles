@@ -77,6 +77,7 @@ color: $body_color;
 div#wrap{
   max-width:930px;
   padding-top:40px;
+  padding-bottom: 80px;
   font-size: 11px;
 }
 
@@ -144,6 +145,7 @@ div#clear {clear:left;}
   p {
     font-family: $oswald;
     font-size: 12px;
+    line-height: 1.2em;
   }
 }
 .text p {
@@ -214,8 +216,87 @@ div#clear {clear:left;}
 .row.rides {
   margin-bottom: 70px;
 }
-.row.rides p, .row.epoca p {
+.row.rides p, .row.epoca p, .row.lombardi-bottom p, .row.tommasini-bottom p, .row.tommasini-top p, .row.lombardi-top p, .row.lombardi-top h3{
   position: absolute;
+}
+.row.lombardi-top div:first-of-type img {
+  top: 115px;
+  position: relative;
+}
+.row.lombardi-top div:nth-of-type(2) img, .row.lombardi-top div:nth-of-type(3) img {
+  position: relative;
+  top: 185px;
+}
+.lombardi-top .col-md-3.picture p {
+  text-transform: uppercase;
+  left: 5px;
+  bottom: -105px;
+}
+.col-md-3.picture hr {
+  border-top: 2px solid $ft_bg_color;
+  border-bottom: 3px solid #7d6755;
+  top: 0px;
+  height: 4px;
+  z-index: 30;
+  background: #d85e00;
+  width: auto;
+  margin-bottom: -27px;
+}
+.lombardi-top h3 {
+  font-size: 14px;
+  color: #666666;
+  font-weight: normal;
+  right: 0px;
+  top: 45px;
+}
+.lombardi-top .col-md-2.picture p {
+  font-size: 14px;
+  color: #666666;
+  text-transform: uppercase;
+  top: 30px;
+}
+#bikes p.enquire {
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: lowercase;
+  color: #333;
+}
+.lombardi-top .col-md-2 p.enquire {
+  top: 140px;
+}
+.racer-rosa-bottom .col-md-4.picture p.enquire {
+  position: absolute;
+  top: 260px;
+}
+.col-md-4.picture a[href='#top'] {
+  position: absolute;
+  font-family: $lobster;
+  color: #333333;
+  font-size: 12px;
+}
+.lombardi-top aside {
+  font-family: $lobster;
+  font-size: 25px;
+  color: $ft_bg_color;
+  position: absolute;
+  white-space: nowrap;
+}
+.row.lombardi-bottom {
+  margin-bottom: 40px;
+}
+.row.lombardi-bottom p {
+  text-transform: uppercase;
+}
+.row.lombardi-bottom div:first-of-type p {
+  color: #fff;
+  left: 5px;
+  top: 5px;
+}
+.row.lombardi-bottom .col-md-1 p {
+  text-align: right;
+  right: 10px;
+  top: -68px;
 }
 .row.rides div:first-of-type p {
   top: 5px;
@@ -236,6 +317,23 @@ div#clear {clear:left;}
   p {
     top: -60px;
   }
+}
+.row.tommasini-top {
+  margin-bottom: 30px;
+  div:nth-of-type(1) img, div:nth-of-type(2) img, div:nth-of-type(3) img {
+    position: relative;
+    top: 31px;
+  }
+}
+.row.tommasini-bottom {
+  margin-bottom: 65px;
+}
+.row.tommasini-bottom div:nth-of-type(3) p {
+  left: 5px;
+}
+.row.tommasini-bottom div:nth-of-type(4) img, .row.tommasini-bottom div:nth-of-type(5) img {
+  position: relative;
+  top: 60px;
 }
 .row.racer-rosa-bottom {
   padding-bottom: 65px;
