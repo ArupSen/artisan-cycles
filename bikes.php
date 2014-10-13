@@ -9,6 +9,7 @@ navbar();
 <div class="row lombardi-top">
     <div class="col-md-3 picture">
     <h3>all of our projects are</h3>
+    <hr />
     <?php
     img_tag('bikes-lombardi-sport.jpg','Lombardi Sport 01');
     ?>
