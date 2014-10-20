@@ -340,10 +340,10 @@ div#clear {
   top: 70px; }
 
 img[alt="frame dropouts"] {
-  margin-top: -19px; }
+  margin-top: -31px; }
 
 img[alt="frame on bench"] {
-  padding: 30px 0; }
+  padding: 20px 0; }
 
 #frames aside p {
   font-family: "Lobster", cursive;
@@ -442,12 +442,12 @@ img[alt="frame on bench"] {
 
 .left-stripe {
   bottom: 0px;
-  height: 544px; }
+  height: 548px; }
 
 .right-stripe {
   top: 0;
   right: 0;
-  height: 611px; }
+  height: 615px; }
 
 /* visits page */
 .social-icons {
@@ -509,6 +509,19 @@ div#SkypeButton_Call_artisancycles_1 img {
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /*global rules*/
-  /*safari rule*/
+  #visits div#wrap, #bikes div#wrap {
+    max-width: 931px; }
+
   /*navbar*/
+  /* frames page */
+  img[alt="frame dropouts"] {
+    margin-top: -19px; }
+
+  /* clothes page */
+  .right-stripe {
+    height: 611px; }
+
+  .left-stripe {
+    height: 544px; }
+
   /*content area*/ }
