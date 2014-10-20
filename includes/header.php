@@ -13,10 +13,7 @@ include_once DATAPATH.'meta_tags.php';
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<?php // leave in during development and remove once live ?>
-<meta name="robots" content="noindex, nofollow">
-
-<title><?php echo ${$filename}['title']; ?>Artisan Cycles Ltd</title>
+<title>Artisan Cycles Ltd - <?php echo ${$filename}['title']; ?></title>
 <meta name="description" content="<?php echo ${$filename}['description']; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
@@ -30,7 +27,7 @@ include_once DATAPATH.'meta_tags.php';
 <link rel="shortcut icon" href="<?php echo IMGPATH.'favicon.ico'; ?>" type="image/x-icon" />
 
 </head>
-<body id="<?php echo $filename; ?>">
+<body id="<?php echo strtolower($filename); ?>">
         <!--[if lt IE 8]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
