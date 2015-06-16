@@ -98,19 +98,20 @@ div#contents {
   margin-right: 0; }
 
 /*main navbar*/
-ul#navbar {
+nav#navbar {
   background-color: #999999;
   padding: 4px 0px;
   min-height: 30px; }
-  ul#navbar li {
-    float: left; }
-    ul#navbar li a {
+  ul#ul-main-navbar li {
+    /* Removed float, to allow listed navigation on small screens
+    /* float: left */ }
+    ul#ul-main-navbar li a {
       font-family: "Oswald", sans-serif;
       font-size: 14px;
       color: white;
       text-transform: uppercase;
       padding: 2px 20px; }
-    ul#navbar li a:hover {
+    ul#ul-main-navbar li a:hover {
       color: #333333;
       text-decoration: none; }
 
