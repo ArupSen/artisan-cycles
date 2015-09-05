@@ -84,7 +84,7 @@ h2 {
   color: #999999; }
 
 h3 {
-  color: #5b7e96;
+  color: #5B7E96;
   font-weight: bold;
   font-size: 11px; }
 
@@ -107,7 +107,7 @@ ul#navbar {
     ul#navbar li a {
       font-family: "Oswald", sans-serif;
       font-size: 14px;
-      color: white;
+      color: #FFFFFF;
       text-transform: uppercase;
       padding: 2px 20px; }
     ul#navbar li a:hover {
@@ -149,8 +149,8 @@ div#clear {
 
 /*footer*/
 #footer {
-  color: white;
-  background-color: #5b7e96;
+  color: #FFFFFF;
+  background-color: #5B7E96;
   font-size: 10px;
   text-transform: uppercase;
   min-height: 44px; }
@@ -159,14 +159,14 @@ div#clear {
     text-align: center; }
   #footer a {
     text-decoration: none;
-    color: white; }
+    color: #FFFFFF; }
   #footer a:hover {
     color: #333333; }
 
 /* home page */
 #index #contents p {
   font-family: "Lobster", cursive;
-  color: #d65f00;
+  color: #D65f00;
   font-size: 24px;
   position: absolute;
   bottom: 10px;
@@ -181,11 +181,11 @@ div#clear {
   margin-top: 3em; }
 
 #about #contents {
-  background: #e6e6e6; }
+  background: #E6E6E6; }
 
 /* bikes page */
 #bikes #contents {
-  background: #e6e6e6; }
+  background: #E6E6E6; }
 
 .row.rides {
   margin-bottom: 70px; }
@@ -207,7 +207,7 @@ div#clear {
   bottom: -105px; }
 
 .col-md-3.picture hr {
-  border-top: 2px solid #5b7e96;
+  border-top: 2px solid #5B7E96;
   border-bottom: 4px solid #7d6755;
   top: 28px;
   position: relative;
@@ -257,7 +257,7 @@ div#clear {
 .lombardi-top aside {
   font-family: "Lobster", cursive;
   font-size: 25px;
-  color: #5b7e96;
+  color: #5B7E96;
   position: absolute;
   white-space: nowrap;
   top: 32px;
@@ -326,9 +326,33 @@ div#clear {
     text-align: right;
     padding: 5px 5px 0 0; }
 
+/* bikes_new page */
+#bikes_new #contents {
+  background: #E6E6E6; }
+
+.bikes-top p {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #666;
+  margin: 30px 0; }
+
+.detail {
+  padding: 0; }
+  .detail p {
+    font-size: 12px;
+    font-family: "Oswald", sans-serif;
+    color: #333; }
+  .detail img {
+    position: relative;
+    bottom: -22px; }
+
+.main {
+  padding-right: 0; }
+
 /* frames page */
 #frames #contents {
-  background: #e6e6e6; }
+  background: #E6E6E6; }
 
 #frames .text {
   padding-top: 25px;
@@ -347,7 +371,7 @@ img[alt="frame on bench"] {
 
 #frames aside p {
   font-family: "Lobster", cursive;
-  color: #5b7e96;
+  color: #5B7E96;
   font-size: 25px;
   width: 270px;
   position: absolute;
@@ -360,7 +384,7 @@ img[alt="frame on bench"] {
   margin-bottom: 1em; }
 
 #fitting #contents {
-  background: #e6e6e6; }
+  background: #E6E6E6; }
 
 #fitting .picture p {
   position: absolute;
@@ -371,13 +395,13 @@ img[alt="frame on bench"] {
 
 /* wheels page */
 #wheels #contents {
-  background: #e6e6e6; }
+  background: #E6E6E6; }
 
 #wheels .text p {
   max-width: 390px; }
 
 #wheels h3 {
-  color: #006e6e;
+  color: #006E6E;
   margin-bottom: 1em; }
 
 /* clothing page */
@@ -525,3 +549,5 @@ div#SkypeButton_Call_artisancycles_1 img {
     height: 544px; }
 
   /*content area*/ }
+
+/*# sourceMappingURL=style.css.map */

@@ -356,6 +356,32 @@ div#clear {clear:left;}
     padding: 5px 5px 0 0;
   }
 }
+/* bikes_new page */
+#bikes_new #contents {
+  background: $page_bg_color;
+}
+.bikes-top p {
+  font-family: $oswald;
+  font-size: 14px;
+  line-height: 1.2em;
+  color: #666;
+  margin: 30px 0;
+}
+.detail {
+  padding: 0;
+  p {
+    font-size: 12px;
+    font-family: $oswald;
+    color: #333;
+  }
+  img {
+    position: relative;
+    bottom: -22px;
+  }
+}
+.main {
+  padding-right: 0;
+}
 /* frames page */
 #frames #contents {
   background: $page_bg_color;
