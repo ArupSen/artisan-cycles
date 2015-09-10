@@ -98,21 +98,22 @@ div#contents {
   margin-right: 0; }
 
 /*main navbar*/
-ul#navbar {
+nav#navbar {
   background-color: #999999;
   padding: 4px 0px;
   min-height: 30px; }
-  ul#navbar li {
-    float: left; }
-    ul#navbar li a {
-      font-family: "Oswald", sans-serif;
-      font-size: 14px;
-      color: #FFFFFF;
-      text-transform: uppercase;
-      padding: 2px 20px; }
-    ul#navbar li a:hover {
-      color: #333333;
-      text-decoration: none; }
+
+ul#ul-main-navbar li {
+  /* float:left; */ }
+  ul#ul-main-navbar li a {
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 2px 20px; }
+  ul#ul-main-navbar li a:hover {
+    color: #333333;
+    text-decoration: none; }
 
 #index #nav-home a, #about #nav-about a, #bikes #nav-bikes a, #frames #nav-frames a, #fitting #nav-fitting a, #wheels #nav-wheels a, #clothing #nav-clothing a, #visits #nav-visits a {
   color: #333333; }
@@ -352,7 +353,7 @@ div#clear {
     padding-left: 5px; }
   .detail img {
     position: relative;
-    bottom: -30px; }
+    bottom: -15px; }
 
 .main {
   padding-right: 0;
@@ -538,6 +539,22 @@ div#SkypeButton_Call_artisancycles_1 img {
   top: -75px;
   left: 51px; }
 
+/* small screens and mobiles */
+@media (max-width: 992px) {
+  ul#ul-main-navbar li a {
+    padding: 2px 11px; }
+
+  #index #contents p {
+    font-size: 18px; } }
+@media (max-width: 600px) {
+  header h2 {
+    font-size: 12px;
+    text-align: left;
+    padding: 2em 0 0 0; }
+
+  #index #contents p {
+    font-size: 12px;
+    bottom: 25px; } }
 /*all the Safari stuff together*/
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   /*global rules*/
